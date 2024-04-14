@@ -1,0 +1,130 @@
+{
+  "Methodology": {
+    "description": [
+      "A recent Sixth Amendment Center evaluation of indigent defense systems in nine Illinois counties, ",
+      {
+        "href": "https://sixthamendment.org/6AC/6AC_illinois_report_2021.pdf",
+        "text": "The Right to Counsel in Illinois: An Evaluation of Adult Criminal Trial Level Indigent Services, "
+      },
+      "commissioned by the Illinois Supreme Court through the Administrative Office of Illinois Courts, concluded that:"
+    ],
+    "list": [
+      "The State of Illinois delegates to its county boards and circuit court judges most of its constitutional obligation to ensure the provision of effective assistance of counsel to indigent criminal defendants in the trial courts. Yet the state does not have any oversight structure by which to know whether each county’s indigent defense system has a sufficient number of attorneys with the necessary time, training, and resources to provide effective assistance of counsel at every critical stage of a criminal case for each and every indigent defendant.",
+      "The state’s limited framework for how county boards and circuit court judges are to establish and implement the indigent defense system in each county institutionalizes political and judicial interference with the appointed attorneys’ independence to act in the stated legal interests of their indigent clients. This lack of independence causes systemic conflicts of interest that interfere with the provision of effective assistance of counsel.",
+      "The indigent defense systems established in Illinois’ counties lack oversight and accountability that can result in a constructive denial of the right to counsel to at least some indigent defendants, and in some instances can result in the actual denial of the right to counsel to at least some indigent defendants. (Sixth Amendment Center 2021, p.iii-iv)."
+    ],
+    "paragraph": "In January 2022, faculty, law students, graduate and undergraduate students, and staff at the Children and Family Justice Center and the Sociology Department at Northwestern University (“the research team”) convened to develop a research strategy to better understand the nature and scope of these deficiencies in Illinois` indigent defense system. Since then, the research team collected, verified, and analyzed a large, statewide database that details how indigent defense resources are distributed across all 102 Illinois counties."
+  },
+  "Resource Allocation": {
+    "description": "To determine the resources allocated to indigent defense and prosecution throughout Illinois counties the research team secured, verified, and analyzed 102 FY 23 county budgets for indigent defense and for the offices of the state’s attorney. The budgets for the offices of state’s attorney represent conservative estimates of governmental spending on prosecution, as they do not reflect spending on investigative resources and expert witnesses provided without budgetary impact such as law enforcement and state-run forensic science laboratories. To collect the budgets, the research team:",
+    "list": [
+      "issued and re-issued Freedom of Information Act (FOIA) requests to the designated FOIA officers in 102 counties until all 102 counties supplied the requested information;",
+      "contacted and interviewed over 250 county stakeholders including public defenders, contract attorneys, state’s attorneys, court clerks, judges and other county officials;",
+      "collected all available and verifiable online information; and",
+      "analyzed county budgets to validate the information gathered from FOIA officers and other stakeholders."
+    ]
+  },
+  "Defense Staffing": {
+    "description": "To secure, verify and accurately report the number of allocated positions for defense attorneys, investigators, mental health professionals and support staff in every county the research team:",
+    "list": [
+      "issued and re-issued FOIA requests to the designated FOIA officers in 102 counties until all 102 counties supplied the requested information;",
+      "assembled the first of its kind up to date directory of chief and lead contract defense attorneys in 102 counties including contact information;",
+      "contacted the chief public defender or lead contract defense attorney in 102 counties; and",
+      "analyzed county budgets to validate the information gathered from FOIA officers and other stakeholders."
+    ]
+  },
+  "Defense Attorney Workload Standards": {
+    "paragraph": [
+      "In 1973, 10 years after ",
+      {
+        "href": "https://supreme.justia.com/cases/federal/us/372/335/",
+        "text": "Gideon v. Wainwright"
+      },
+      ", the National Advisory Commission on Criminal Justice Standards and Goals (NAC Standards) established first public defender caseload limit as:"
+    ],
+    "mainList": [
+      "no more than 150 felony cases per attorney per year, or",
+      "no more than 400 misdemeanors (excluding traffic) cases per attorney per year, or",
+      "no more than  200 juvenile cases per attorney per year, or",
+      "no  more than  200 mental health cases per attorney per year, or",
+      "no more than 25 appeals per attorney per year, or",
+      "a proportional combination thereof."
+    ],
+    "secondParagraph": [
+      "Decades later, researchers have determined that the NAC Standards were “developed without an appropriate or accurate methodology”  (",
+      {
+        "href": "https://www.americanbar.org/content/dam/aba/events/legal_aid_indigent_defendants/ls-sclaid-indef-delphi-method-lessons.pdf",
+        "text": "American Bar Association 2021"
+      },
+      " p.7). The American Bar Association’s Standing Committee on Legal Aid and Indigent Defense (ABA SCLAID), the RAND Corporation, and other state-based organizations have subsequently developed a rigorous method to determine appropriate workload standards for attorneys representing indigent clients. Thus far, 17 states have developed up-to-date attorney workload standards. Since Illinois has not conducted its own study, the research team relied on the ABA SCLAID’s initial attorney workload study method by:"
+    ],
+    "list": [
+      "designing a workload survey;",
+      "distributing the survey to every chief public defender and identified contract defense attorney in the state, as well as a listserv of over 100 public defenders in Illinois;",
+      "analyzing completed surveys from 228 public defenders and contract defense attorneys;",
+      "weighing the responses to be proportionate with the total number of attorneys employed in each of three groups we specified according to population size (counties under 35,000; counties over 35,000 and Cook County); and",
+      "calculating workload standards for felonies, misdemeanors and juvenile cases using the ABA SCLAID's three-step formula:"
+    ],
+    "formulas": [
+      [ "Hours needed for all cases per year", " = ", "Cases per year", " \u00D7 ", "Hours needed per case" ],
+      [ "Attorneys needed for all cases per year", " = ", "Hours needed for all cases per year", " / ", "2080*" ],
+      [ "Cases per attorney per year", " = ", "Cases per year", " / ", "Attorneys needed for all cases per year" ]
+    ],
+    "formulaSub": "*2080 represents the number of weeks available to each attorney per year based on previous ABA attorney workload studies, which assume 52 weeks per year and 40 hours per week and do not account for administrative and supervisory tasks such as training, travel time, vacation, paid time off, and other non-case-specific work.",
+    "subParagraph": "Based on the survey and calculations, workload standards for Illinois’ defense attorneys in Illinois are as follows:",
+    "subList": [
+      "no more than 100 felony cases per attorney per year, or",
+      "no more than 200 misdemeanor cases per attorney per year, or",
+      "no more than 183 DUI cases per attorney per year, or",
+      "no more than 195 juvenile delinquency cases per attorney per year."
+    ],
+    "tableParagraph": [
+      "On September 12, 2023, fifty years after the NAC released the initial caseload standards, the RAND Corporation and ABA released its report, ",
+      {
+        "href": "https://www.rand.org/pubs/research_reports/RRA2559-1.html",
+        "text": "National Public Defender Workload Study"
+      },
+      ". The RAND Study includes both a meta-analysis of the state-based studies as well as its new national study and sets forth the following updated standards:"
+    ],
+    "table": {
+      "title": "Caseload Standards Comparison",
+      "headers": [
+        "Case Type",
+        "NAC Standards (maximum cases per year)",
+        "State-Level Study Medians (illustrative maximum cases per year)",
+        "NPDWS Results (illustrative maximum cases per year)"
+      ],
+      "body": [
+        [ "Felony—High—LWOP", "150 (all felonies)", 8, 7 ],
+        [ "Felony–High—Murder", "", 7, 8 ],
+        [ "Felony–High–Sex", "", 13, 12 ],
+        [ "Felony–High–Other", "", 27, 21 ],
+        [ "Felony–Mid", "", 30, 36 ],
+        [ "Felony–Low", "", 84, 59 ],
+        [ "DUI–High", "", 83, 63 ],
+        [ "DUI–Low", "", 171, 109 ],
+        [ "Misdemeanor–High", "400 (all misdemeanors)", 100, 93 ],
+        [ "Misdemeanor–Low", "", 260, 150 ],
+        [ "Probation and Parole Violations", "N/A", 346, 154 ]
+      ]
+    },
+    "endParagraph": [
+      {
+        "href": "https://www.rand.org/pubs/research_reports/RRA2559-1.html",
+        "text": "See, Rand Corporation, National Public Defender Workload Study, 2023, at 114."
+      },
+      " Since Illinois does not disaggregate its case data beyond felonies and misdemeanors, the RAND Study’s workload standards cannot be applied in Illinois."
+    ]
+  },
+  "Criminal and Juvenile Cases Filed": {
+    "description": "The research team utilized the Administrative Office of Illinois Courts’ Circuit Court Statistical Reports to calculate the number of felonies, misdemeanors, major traffic, DUI, delinquency and abuse and neglect cases filed in each county for 2022.  Since Cook County’s 2022 fourth quarter data was not available at the time of our study, the research team used Cook County’s 2021 fourth quarter data to calculate the total number of cases filed in one year. Since Cook County’s 2022 fourth quarter data was not available at the time of our study, the research team used Cook County’s 2021 data to calculate the total number of cases."
+  },
+  "Staffing Calculations": [
+    [ "Required attorneys", " = ", "Cases per year", " / ", "Attorney workload standards" ],
+    [ "Attorney shortfall", " = ", "Required attorneys", " - ", "Allocated attorneys" ],
+    [ "Investigator shortfall", " = ", "Required attorneys", " / ", "3*", "-", "Allocated investigators" ],
+    [ "Mental health staff shortfall", " = ", "Required attorneys", " / ", "3*", "-", "Allocated mental health staff" ],
+    [ "Support staff shortfall:", " = ", "Required attorneys", " / ", "2*", "-", "Allocated support staff" ],
+    "*Since the calculations rely on from the National Association for Public Defense's (2020) policy statement stipulating the number of personnel required to enable the defense attorneys to provide meaningful representation to their clients: 'Until empirical studies are further able to determine the number of staff necessary to support the lawyer, public defense systems, at a minimum, should provide one investigator for every three lawyers, one mental health professional, often a social worker, for every three lawyers, and one supervisor for every 10 lawyers. Additionally, there should be one paralegal and one administrative assistant for every 4 lawyers. The research team incorporated only a subset of staff required and did not account for essential operational services such as IT or human resources, the calculations are a conservative estimate of the staffing and resources required to provide meaningful representation."
+  ]
+}

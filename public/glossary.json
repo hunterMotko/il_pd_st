@@ -1,0 +1,108 @@
+[
+  {
+    "term": "2022 Criminal Filings",
+    "definition": [
+      "The 2022 criminal filings include the total of all felony, misdemeanor, major traffic and driving under the influence (DUI) filings for calendar year 2022 for all counties except Cook as reported by the Administrative Office of Illinois Courts.  Since 2022’s fourth quarter is unavailable for Cook County, the research team used 2021’s fourth quarter and the first three quarters of 2022 as a full year of criminal filings. ",
+      {
+        "href": "https://www.illinoiscourts.gov/courts/circuit-court/illinois-circuit-court-statistical-reports",
+        "text": "Illinois Circuit Courts Statistical Reports."
+      }
+    ]
+  },
+  {
+    "term": "2022 Juvenile Filings",
+    "definition": [
+      "The 2022 juvenile filings include the total of all delinquency filings, and abuse and neglect filings or calendar year 2022 for all counties except Cook as reported by the Administrative Office of Illinois Courts.  Since 2022’s fourth quarter is unavailable for Cook County, the research team used 2021’s fourth quarter and the first three quarters of 2022 as a full year of juvenile filings. ",
+      {
+        "href": "https://www.illinoiscourts.gov/courts/circuit-court/illinois-circuit-court-statistical-reports",
+        "text": "Illinois Circuit Courts Statistical Reports."
+      }
+    ]
+  },
+  {
+    "term": "Allocated",
+    "definition": [
+      "Allocated is the number of funded positions regardless of whether the position is currently vacant."
+    ]
+  },
+  {
+    "term": "County",
+    "definition": [
+      "There are 102 counties in Illinois, each charged with administering state government services in its local area. Under current Illinois law, every Illinois county is responsible for the administration of indigent defense in its county.  See, ",
+      {
+        "href": "https://www.ilga.gov/legislation/ilcs/ilcs4.asp?DocName=005500050HDiv.+3-4&ActID=750&ChapterID=12&SeqStart=21800000&SeqEnd=24000000",
+        "text": "55 ILCS 5/3-4000"
+      },
+      ".  Each county with a population over 35,000 is required to create “the office of Public Defender,” while counties with populations under 35,000 may create a public defender office.  55 ILCS 5/3-4001,4002.  In addition, Illinois law currently provides “the public defender shall be paid out of the county treasury… and the State must pay 66 2/3% of the public defender’s annual salary.”  55 ILCS 5/3-4007, 4008."
+    ]
+  },
+  {
+    "term": "Defense Attorneys",
+    "definition": [
+      "All full and part-time public defenders and private defense attorneys who are paid by one of Illinois’ counties to represent indigent defendants."
+    ]
+  },
+  {
+    "term": "Investigators",
+    "definition": [
+      "All full or part-time employees who work with defense attorneys investigating pending cases."
+    ]
+  },
+  {
+    "term": "Judicial Circuit",
+    "definition": [
+      "There are 25 judicial circuits in Illinois. Seven circuits are comprised of one county each (Cook, DuPage, Kane, Lake, McHenry, St. Clair and Will). The remaining eighteen circuits are comprised of as few as two and as many as twelve counties. ",
+      {
+        "href": "https://www.illinoiscourts.gov/courts/circuit-court/",
+        "text": "Illinois Courts website."
+      }
+    ]
+  },
+  {
+    "term": "Mental Health Staff",
+    "definition": [
+      "All full or part-time mental health professionals including case managers, social workers, mitigation specialists or counselors who are paid by one of Illinois’ counties to work with the defense attorneys and their clients on pending cases."
+    ]
+  },
+  {
+    "term": "PD FY 23 Budget",
+    "definition": [
+      "The PD FY 23 Budget includes the total salaries and benefits for all full and part-time employees for Illinois’ indigent defense services for fiscal year 2023."
+    ]
+  },
+  {
+    "term": "Population",
+    "definition": [
+      "A county’s population dictates whether a county is required to create a public defender office. The research team used the census data to determine a county’s population."
+    ]
+  },
+  {
+    "term": "Required",
+    "definition": [
+      "The number of attorneys needed to provide representation for 85% of total criminal and juvenile cases filed. This percentage is based on national data showing that 85% of those charged in state level criminal matters are indigent and therefore entitled to appointed counsel. ",
+      {
+        "href": "https://bjs.ojp.gov/content/pub/pdf/dccc.pdf",
+        "text": "United States Department of Justice: Bureau of Justice Statistics Special Report: Defense Counsel in Criminal Cases, 2000."
+      },
+      "The research team recognizes that 85% is a conservative percentage but neither Illinois nor any county analyzes and publishes data regarding the percentage of cases filed with indigent defendants entitled to a defense attorney."
+    ]
+  },
+  {
+    "term": "SA FY 23 Budget",
+    "definition": [
+      "The SA FY 23 Budget includes the total salaries and benefits for full and part-time Office of State’s Attorney’s employees for fiscal year 2023. The research team recognizes that the budgets for the offices of state’s attorney are only a subset of the governmental spending on prosecution, however, there are no recognized studies or formulas which set forth what percentage of city, county and state law enforcement budget are allocated to prosecution.  Therefore, the budgets for the offices of state’s attorney are an underestimation of the resources allocated to prosecution."
+    ]
+  },
+  {
+    "term": "Shortfall",
+    "definition": [
+      " The difference between the number of allocated and required positions."
+    ]
+  },
+  {
+    "term": "Support Staff",
+    "definition": [
+      "All full and part-time support staff including receptionists, secretaries, docket clerks, paralegals, or office managers who are paid by one of Illinois’ counties to work with the defense attorneys."
+    ]
+  }
+]
