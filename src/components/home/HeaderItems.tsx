@@ -41,7 +41,7 @@ const Drop = ({ title, sub }: { title: string, sub: Nav[] }) => {
               key={item.title}
               href={item.path}
               role="menuitem"
-              className="block rounded-lg px-4 py-2 text-sm hover:underline hover:text-blue-600"
+              className="text-black block rounded-lg px-4 py-2 text-sm hover:underline hover:text-blue-600"
             >
               {item.title}
             </Link>
