@@ -5,7 +5,6 @@ export const pool = (() => {
       connectionString: process.env.DATABASE_URL,
       ssl: {
         rejectUnauthorized: false,
-        ca: process.env.CERT
       }
     });
 })();
