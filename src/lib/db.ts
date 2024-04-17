@@ -4,7 +4,8 @@ export const pool = (() => {
     return new Pool({
       connectionString: process.env.DATABASE_URL,
       ssl: {
-        rejectUnauthorized: false
+        rejectUnauthorized: false,
+        ca: process.env.CERT
       }
     });
 })();
