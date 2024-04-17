@@ -1,24 +1,12 @@
 import { Pool } from 'pg';
 
-export const pool = (() => {
-  return new Pool({
-    connectionString: process.env.DATABASE_URL,
-    ssl: {
-      rejectUnauthorized: false
-    }
-  });
-})();
-
-export const client = async (text: string, params: Params[] = []) => {
-  try {
-    const c = await pool.connect()
-    const res = await c.query(text, params)
-    c.release()
-    return res
-  } catch (error) {
-    console.error(error)
+const pool = new Pool({
+  connectionString: process.env.DATABASE_URL,
+  max: 20,
+  ssl: {
+    rejectUnauthorized: false
   }
-}
+});
 
 type Params = string | number | boolean | Date | null | undefined;
 
