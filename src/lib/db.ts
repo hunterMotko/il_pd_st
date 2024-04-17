@@ -1,19 +1,12 @@
 import { Pool } from 'pg';
 
 export const pool = (() => {
-  if (process.env.NODE_ENV !== 'production') {
-    return new Pool({
-      connectionString: process.env.DATABASE_URL,
-      ssl: false
-    });
-  } else {
-    return new Pool({
-      connectionString: process.env.DATABASE_URL,
-      ssl: {
-        rejectUnauthorized: false
-      }
-    });
-  }
+  return new Pool({
+    connectionString: process.env.DATABASE_URL,
+    ssl: {
+      rejectUnauthorized: false
+    }
+  });
 })();
 
 export const client = async (text: string, params: Params[] = []) => {
