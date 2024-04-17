@@ -1,4 +1,4 @@
-import { client } from '@/lib/db';
+import { query } from '@/lib/db';
 
 export async function getCountyShortFall() {
   // type bar
@@ -13,7 +13,7 @@ LEFT JOIN required r ON a.county_id = r.county_id
 LEFT JOIN shortfalls s ON a.county_id = s.county_id
   `
   try {
-    const result = await client(q);
+    const result = await query(q);
     if (!result) {
       return false
     }
@@ -49,7 +49,7 @@ export async function getRestShortfall() {
       LEFT JOIN required r ON a.county_id = r.county_id
       LEFT JOIN shortfalls s ON a.county_id = s.county_id`
   try {
-    const result = await client(q);
+    const result = await query(q);
     if (!result) {
       return false
     }
@@ -70,7 +70,7 @@ export async function getMaxCounty() {
       ON s.county_id = c.id 
       ORDER BY value DESC LIMIT 5`
   try {
-    const result = await client(q);
+    const result = await query(q);
     if (!result) {
       return false
     }
@@ -92,7 +92,7 @@ export async function getMinCounty() {
     ON s.county_id = c.id 
     ORDER BY s.attorney ASC LIMIT 5`
   try {
-    const result = await client(q);
+    const result = await query(q);
     if (!result) {
       return false
     }
@@ -114,7 +114,7 @@ ON s.county_id = c.id
 GROUP BY c.circuit
 ORDER BY value DESC limit 5`
   try {
-    const result = await client(q);
+    const result = await query(q);
     if (!result) {
       return false
     }
@@ -136,7 +136,7 @@ ON s.county_id = c.id
 GROUP BY c.circuit
 ORDER BY value limit 5`
   try {
-    const result = await client(q);
+    const result = await query(q);
     if (!result) {
       return false
     }
@@ -158,7 +158,7 @@ export async function getBudget() {
   ] AS data
   FROM budgets`
   try {
-    const result = await client(q);
+    const result = await query(q);
     if (!result) {
       return false
     }
