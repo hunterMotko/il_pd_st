@@ -2,7 +2,11 @@ import { Pool } from 'pg';
 
 export const pool = (() => {
     return new Pool({
-      connectionString: process.env.DATABASE_URL,
+      host: process.env.PG_HOST,
+      user: process.env.PG_USER,
+      password: process.env.PG_PASSWORD,
+      port: +process.env.PG_PORT,
+      database: process.env.PG_DATABASE,
       ssl: {
         rejectUnauthorized: false,
       }
