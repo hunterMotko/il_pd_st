@@ -14,7 +14,15 @@ ChartJS.register(CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend)
 
 import { Bar } from 'react-chartjs-2';
 
-const MultiBar = ({ text, data }: { text: string, data: MultiBarData }) => {
+type MultiData = {
+  [key: string]: {
+    allocated: number
+    required: number
+    shortfall: number
+  }
+}
+
+const MultiBar = ({ text, data }: { text: string, data: MultiData}) => {
   const allocated = Object.values(data).map(item => Math.round(item.allocated))
   const required = Object.values(data).map(item => Math.round(item.required))
   const shortfall = Object.values(data).map(item => Math.round(item.shortfall))
