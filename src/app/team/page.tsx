@@ -1,4 +1,5 @@
 import GlassPane from "@/components/common/GlassPane"
+import Link from "next/link"
 
 export default function Team() {
   const data = {
@@ -48,6 +49,15 @@ export default function Team() {
           {endContent}
         </p>
       </div>
+
+      <Link href="mailto:illinoispublicdefensestudy@gmail.com"
+        className={`h-20 w-1/4 md:4/5 mx-auto my-3 shadow-lg bg-purple-900 text-white text-center text-3xl
+          flex justify-center items-center
+          hover:bg-white hover:text-purple-900 hover:shadow-sm hover:border-2 hover:border-purple-900 border rounded-md duration-300 
+        `}
+      >
+        Contact Us
+      </Link>
     </GlassPane>
   )
 }
