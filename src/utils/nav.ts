@@ -11,5 +11,6 @@ export const navigation = [
   { title: "Methodology", path: "/methodology" },
   { title: "Glossary", path: "/glossary" },
   { title: "Sources", path: "/sources" },
+  { title: "Media", path: "/media" },
   { title: "Research Team", path: "/team" },
 ];

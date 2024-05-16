@@ -12,7 +12,6 @@ const Card = ({ path, title }: CardProps) => (
       hover:bg-white hover:text-purple-900 hover:shadow-sm hover:border-2 hover:border-purple-900
       border rounded-md duration-300 
       flex justify-center items-center
-      ${title === "Issue Overview" ? "md:col-span-full" : ""}
     `}
   >
     <h5 className="text-2xl font-bold md:text-3xl">{title}</h5>
