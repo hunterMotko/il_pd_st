@@ -11,14 +11,14 @@ type ArticleData = {
 
 export default function NewsPage() {
   const d = JSON.parse(JSON.stringify(json))
-  const supporting = "Supporting Public Defense in Illinois"
-  const indigent = "Indigent Defense Crisis Reforms"
+  const supporting = "Latest News on Statewide Public Defense in Illinois"
+  const indigent = "Additional Coverage on IL Public Defense Crisis"
 
   return (
     <div className="container mx-auto">
       <section className="max-w-screen-2xl m-auto w-full px-3 sm:px-8 lg:px-16 xl:px-32 flex flex-col gap-12 py-12 2xl:py-16">
         <h1 className="w-full text-4xl bg-purple-900 border rounded text-white text-center p-3 font-extrabold mx-auto md:text-5xl">
-          Recent News
+          Media
         </h1>
         <div className="grid w-full grid-flow-row gap-x-0 gap-y-6 md:grid-cols-1 md:gap-6 xl:grid-cols-1">
           <h2 className="text-2xl font-semibold">
