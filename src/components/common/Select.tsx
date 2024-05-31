@@ -31,9 +31,7 @@ const DropNames = (
 }
 
 type OptionValue = number | string;
-
 type Option<Type extends OptionValue> = Type;
-
 type SelectProps<Type extends OptionValue> = {
   data: Option<Type>[];
   flag?: string;
