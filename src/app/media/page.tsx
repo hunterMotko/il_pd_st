@@ -23,19 +23,6 @@ export default function NewsPage() {
         </h1>
         <div className="grid w-full grid-flow-row gap-x-0 gap-y-6 md:grid-cols-1 md:gap-6 xl:grid-cols-1">
           <h2 className="text-2xl font-semibold">
-            {state}
-          </h2>
-          <p className="w-full h-full">
-            <iframe 
-              width="100%" 
-              height="400" 
-              src="https://www.youtube.com/embed/eziOecXmQDA?si=rNo_2Zb3bMNa-PF1?enablejsapi=1"
-              title="YouTube video player" 
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-              allowFullScreen
-            ></iframe>
-          </p>
-          <h2 className="text-2xl font-semibold">
             {supporting}
           </h2>
           {d.supporting.map((item: ArticleData) => <Article key={item.title} {...item}/>)}
