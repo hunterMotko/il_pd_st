@@ -12,8 +12,7 @@ type ArticleData = {
 export default function NewsPage() {
   const d = JSON.parse(JSON.stringify(json))
   const supporting = "Latest News on Statewide Public Defense in Illinois"
-  const indigent = "Additional Coverage on IL Public Defense Crisis"
-  const state = "Advocates continue to push for statewide public defender office, despite lack of movement in the Cap"
+  const indigent = "Additional Coverage on Statewide Public Defense Systems"
 
   return (
     <div className="container mx-auto">
