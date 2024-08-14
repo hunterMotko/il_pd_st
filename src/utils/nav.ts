@@ -1,4 +1,5 @@
 export const navigation = [
+  { title: "FAIR Act", path: "/fairact" },
   { title: "Issue Overview", path: "/overview" },
   {
     title: "Data Maps", sub: [
