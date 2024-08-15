@@ -1,4 +1,3 @@
-import PdfSection from "@/components/fairact/PdfSection";
 import Link from "next/link";
 
 export default function FairActPage() {
