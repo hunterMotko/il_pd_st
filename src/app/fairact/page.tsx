@@ -1,6 +1,58 @@
 import Link from "next/link";
 
 export default function FairActPage() {
+  const endorsers = [
+    "Access Living",
+    "A Just Harvest",
+    "AIDS Foundation Chicago",
+    "Ascend Justice",
+    "Asian Americans Advancing Justice - Chicago",
+    "Better Government Association",
+    "Cannabis Equity IL Coalition",
+    "Champaign County Bailout Coalition",
+    "Change Peoria",
+    "Chicago Appleseed Center for Fair Courts",
+    "Chicago Community Bond Fund",
+    "Chicago Council of Lawyers",
+    "Chicago Urban League",
+    "Chicago United Solidarity Project (CUSP)",
+    "Children’s Best Interest Project",
+    "Color of Change",
+    "Faith Coalition for the Common Good",
+    "Farmworker and Landscaper Advocacy Project (FLAP)",
+    "Greater West Town Community Development Project",
+    "Health & Medicine Policy Research Group",
+    "Illinois Coalition Against Domestic Violence",
+    "Illinois Collaboration on Youth",
+    "Illinois Harm Reduction & Recovery Coalition",
+    "Illinois National Organization for Women (NOW)",
+    "Illinois Network for Pretrial Justice",
+    "Illinois Prisoner Rights Coalition",
+    "Illinois Social Justice Alliance",
+    "Interfaith Criminal Justice Task Force",
+    "League of Women Voters of Illinois",
+    "Liberation Library",
+    "Metro East Organization",
+    "NAMI Illinois",
+    "National Lawyers Guild - Chicago",
+    "Nikkei Uprising",
+    "Prison Policy Initiative",
+    "The Center for Empowerment and Justice",
+    "The People’s Lobby",
+    "The Porchlight Collective SAP",
+    "Restore Justice",
+    "The Resurrection Project",
+    "Shriver Center on Poverty Law",
+    "Smart Decarceration Project, University of Chicago",
+    "Southsiders Organized for Unity and Liberation (SOUL)",
+    "TASC (Treatment Alternatives for Safe Communities)",
+    "Trinity United Church of Christ Chicago",
+    "Unitarian Universalist Advocacy Network of Illinois",
+    "Unitarian Universalist Prison Ministry of Illinois",
+    "Youth Empowerment Performance Project (YEPP)",
+    "YWCA Champaign County",
+    "YWCA McLean County",
+  ]
   return (
     <div className="container mx-auto">
       <section className="max-w-screen-2xl m-auto w-full px-3 sm:px-8 lg:px-16 xl:px-32 flex flex-col gap-12 py-12 2xl:py-16 text-center">
@@ -55,6 +107,14 @@ export default function FairActPage() {
           >
             Canvass in Support of Public Defense
           </Link>
+        </div>
+        <div className="flex flex-col">
+          <h3 className="text-purple-900 text-xl">FAIR Act Endorsers</h3>
+          <ul className="grid grid-cols-1 sm:grid-cols-2">
+            {endorsers.map(item => (
+              <li className="text-sm">{item}</li>
+            ))}
+          </ul>
         </div>
       </section>
     </div >
