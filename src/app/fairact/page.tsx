@@ -112,7 +112,7 @@ export default function FairActPage() {
           <h3 className="text-purple-900 text-xl">FAIR Act Endorsers</h3>
           <ul className="grid grid-cols-1 sm:grid-cols-2">
             {endorsers.map(item => (
-              <li className="text-sm">{item}</li>
+              <li key={item} className="text-sm">{item}</li>
             ))}
           </ul>
         </div>
