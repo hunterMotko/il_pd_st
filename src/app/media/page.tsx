@@ -18,17 +18,17 @@ export default function NewsPage() {
     <div className="container mx-auto">
       <section className="max-w-screen-2xl m-auto w-full px-3 sm:px-8 lg:px-16 xl:px-32 flex flex-col gap-12 py-12 2xl:py-16">
         <h1 className="w-full text-4xl bg-purple-900 border rounded text-white text-center p-3 font-extrabold mx-auto md:text-5xl">
-          Media
+          Coverage of Public Defense Systems in Other States.
         </h1>
         <div className="grid w-full grid-flow-row gap-x-0 gap-y-6 md:grid-cols-1 md:gap-6 xl:grid-cols-1">
           <h2 className="text-2xl font-semibold">
             {supporting}
           </h2>
-          {d.supporting.map((item: ArticleData) => <Article key={item.title} {...item}/>)}
+          {d.supporting.map((item: ArticleData) => <Article key={item.title} {...item} />)}
           <h2 className="text-2xl font-semibold">
             {indigent}
           </h2>
-          {d.indigent.map((item: ArticleData) => <Article key={item.title} {...item}/>)}
+          {d.indigent.map((item: ArticleData) => <Article key={item.title} {...item} />)}
         </div>
       </section>
     </div>
