@@ -3,7 +3,7 @@ import Link from "next/link";
 interface MainSection {
   title?: string,
   description?: (string | { href: string, text: string })[],
-  list?: string[],
+  list?: { title: string, description: string }[],
   paragraph?: string
 }
 
@@ -18,8 +18,10 @@ function Main({ title, description, list, paragraph }: MainSection) {
         ))
       }</p>
       <ul className='list-disc mx-4 my-2 px-4'>
-        {!!list && list.map((item: string, i: number) => (
-          <li key={i}>{item}</li>
+        {!!list && list.map(({ title, description }: { title: string, description: string }, i: number) => (
+          <li key={i} className="">
+            <span className="font-bold text-lg">{title}</span> {description}
+          </li>
         ))}
       </ul>
       <p>{paragraph}</p>

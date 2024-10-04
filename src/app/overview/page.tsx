@@ -4,7 +4,7 @@ import Main from '@/components/overview/Main'
 interface MainSection {
   title?: string,
   description?: (string | { href: string, text: string })[],
-  list?: string[],
+  list?: { title: string, description: string }[],
   paragraph?: string
 }
 

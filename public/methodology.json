@@ -15,6 +15,10 @@
     ],
     "paragraph": "In January 2022, faculty, law students, graduate and undergraduate students, and staff at the Children and Family Justice Center and the Sociology Department at Northwestern University (“the research team”) convened to develop a research strategy to better understand the nature and scope of these deficiencies in Illinois` indigent defense system. Since then, the research team collected, verified, and analyzed a large, statewide database that details how indigent defense resources are distributed across all 102 Illinois counties."
   },
+  "Research Question": {
+    "description": "How are resources for public defense and prosecution allocated across Illinois counties, and how do these allocations impact defense staffing, attorney workloads, and the overall effectiveness of the public defense system in ensuring equitable legal representation?",
+    "paragraph": "To address this question, the research team examined resource allocation, staffing sufficiency, and whether current attorney workloads meet national standards for providing effective assistance of counsel for defendants."
+  },
   "Resource Allocation": {
     "description": "To determine the resources allocated to indigent defense and prosecution throughout Illinois counties the research team secured, verified, and analyzed 102 FY 23 county budgets for indigent defense and for the offices of the state’s attorney. The budgets for the offices of state’s attorney represent conservative estimates of governmental spending on prosecution, as they do not reflect spending on investigative resources and expert witnesses provided without budgetary impact such as law enforcement and state-run forensic science laboratories. To collect the budgets, the research team:",
     "list": [

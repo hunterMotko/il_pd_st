@@ -4,9 +4,16 @@ interface ListSection {
   list?: ListItem[]
 }
 
+
 interface ListItem {
   title?: string,
   description?: string,
+}
+
+interface ResearchQuest {
+  title?: string,
+  description?: string,
+  paragraph?: string
 }
 
 interface MainSection {
@@ -15,10 +22,12 @@ interface MainSection {
   list?: string[],
   paragraph?: string
 }
+
 type Staffing = {
   title: string,
   list: string[][] | string[]
 }
+
 interface Section {
   title?: string,
   description?: string,

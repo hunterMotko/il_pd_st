@@ -3,7 +3,7 @@ import Link from "next/link"
 
 export default function Team() {
   const data = {
-    title: "THE RESEARCH TEAM ",
+    title: "The Research Team ",
     mainContent: `The research team is led by Julie Biehl, Clinical Law Professor and Director of the Children and Family Justice Center (CFJC) at Northwestern Pritzker School of Law, Stephanie Kollmann, Policy Director, Children and Family Justice Center at Northwestern Pritzker School of Law,  and Sino Esthappan, a Ph.D. candidate in the Sociology Department and Center for Legal Studies at Northwestern University.`,
     teamContent: `The IL PD Stats website was designed and is maintained by Hunter Motko, Software Engineer. Marisa LaBella, Legal Assistant at Northwestern Law, is a policy analyst and project manager for the team. `,
     leadIn: "The following current and former Northwestern Law and undergraduate students contributed to this research and data collection:",
