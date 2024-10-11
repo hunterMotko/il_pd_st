@@ -2,12 +2,14 @@ import Link from "next/link";
 
 export default function FairActPage() {
   const endorsers = [
+    "33rd Ward Working Families",
     "Access Living",
     "A Just Harvest",
     "AIDS Foundation Chicago",
     "Ascend Justice",
     "Asian Americans Advancing Justice - Chicago",
     "Better Government Association",
+    "BlackRoots Alliance",
     "Cannabis Equity IL Coalition",
     "Champaign County Bailout Coalition",
     "Change Peoria",
@@ -15,11 +17,13 @@ export default function FairActPage() {
     "Chicago Community Bond Fund",
     "Chicago Council of Lawyers",
     "Chicago Urban League",
+    "Chicago United for Equity",
     "Chicago United Solidarity Project (CUSP)",
     "Children’s Best Interest Project",
     "Color of Change",
     "Faith Coalition for the Common Good",
     "Farmworker and Landscaper Advocacy Project (FLAP)",
+    "First Unitarian Church of Chicago",
     "Greater West Town Community Development Project",
     "Health & Medicine Policy Research Group",
     "Illinois Coalition Against Domestic Violence",
@@ -36,12 +40,16 @@ export default function FairActPage() {
     "NAMI Illinois",
     "National Lawyers Guild - Chicago",
     "Nikkei Uprising",
+    "Phalanx Family Services",
     "Prison Policy Initiative",
+    "To Defend If Necessary, LLC",
     "The Center for Empowerment and Justice",
     "The People’s Lobby",
     "The Porchlight Collective SAP",
     "Restore Justice",
+    "Rockford Urban Ministries",
     "The Resurrection Project",
+    "She Votes Illinois",
     "Shriver Center on Poverty Law",
     "Smart Decarceration Project, University of Chicago",
     "Southsiders Organized for Unity and Liberation (SOUL)",
@@ -61,7 +69,7 @@ export default function FairActPage() {
         </h1>
         <div className="grid w-full grid-flow-row gap-x-0 gap-y-1 md:grid-cols-1 md:gap-1 xl:grid-cols-1">
           <h2 className="text-3xl font-bold my-1">Funded Advocacy & Independent Representation</h2>
-          <h3 className="text-2xl my-1">HB 5842 – Rep. Dave Vella, Rep. Justin Slaughter, & Rep. Kevin Olickal</h3>
+          <h3 className="text-2xl my-1">HB 5842 – Rep. Dave Vella, Rep. Justin Slaughter, Rep. Kevin Olickal, & Rep. Lilian Jiménez</h3>
           <p className="text-lg px-3 mx-3 my-1">
             The FAIR Act will create a statewide public defense system to
             ensure that all Illinois residents have access to quality legal representation, regardless of their socioeconomic status.
@@ -72,7 +80,7 @@ export default function FairActPage() {
         <div>
           <h2 className="text-xl text-purple-900">Learn More</h2>
           <Link
-            href="https://drive.google.com/file/d/1f3JyOyJDRhlH9E-5Ncv6amuRjvy843p6/view"
+            href="https://drive.google.com/file/d/1cr9upOxGjpBJ_fGLW6jriTUcsFzFKojG/view"
             className="pl-5 hover:text-purple-900 hover:underline"
           >
             FAIR Act Fact Sheet & Endorsers
