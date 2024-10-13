@@ -27,12 +27,22 @@ const PercentageBar = ({ text, data }: { text: string, data: ChartItemData[] }) 
       title: {
         display: true,
         text,
+        padding: 10,
         font: {
-          size: 20
+          size: 24
         }
       },
       legend: {
-        display: daChartCheck
+        display: daChartCheck,
+        position: 'bottom' as const,
+        labels: {
+          boxWidth: 50,
+          boxHeight: 20,
+          padding: 15,
+        },
+        font: {
+          size: 16
+        }
       }
     }
   };

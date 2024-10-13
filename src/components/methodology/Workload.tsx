@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 const Workload = ({ title, section }: { title: string, section: any }) => (
-  <section className="h-full w-full p-4" >
+  <section className="h-full w-full" >
     <h2 className='text-2xl my-2'>{title}:</h2>
     <p>
       {section.paragraph.map((item: string | { href: string, text: string }, i: number) => (
