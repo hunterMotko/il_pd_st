@@ -34,9 +34,9 @@ export default function Team() {
   }
   const { title, mainContent, teamContent, leadIn, team, subContent, endContent } = data
   return (
-    <GlassPane className="w-full md:w-3/4 mx-auto my-5">
-      <div className="w-full rounded-lg text-black p-3 my-5">
-        <h1 className="text-4xl bg-purple-900 border rounded text-white text-center p-3 font-extrabold mx-auto md:text-5xl">{title}</h1>
+    <div className="container mx-auto">
+      <div className="max-w-screen-2xl m-auto w-full px-3 sm:px-8 lg:px-16 xl:px-32 flex flex-col gap-4 py-12 2xl:py-16">
+        <h1 className="w-full text-4xl bg-purple-900 border rounded text-white text-center p-3 font-extrabold mx-auto md:text-5xl">{title}</h1>
         <h2 className="m-1 p-1">
           {mainContent}
         </h2>
@@ -48,7 +48,7 @@ export default function Team() {
         </h2>
         <ul
           className={
-            "mx-auto w-full lg:w-2/3 rounded p-2 border border-purple-900 grid md:grid-cols-2 place-items-center"
+            "mx-auto w-full lg:w-2/3 rounded p-2 grid md:grid-cols-2 place-items-center"
           }
         >
           {team.map((name, i) => <li key={i}>{name}</li>)}
@@ -69,6 +69,6 @@ export default function Team() {
       >
         Contact Us
       </Link>
-    </GlassPane>
+    </div>
   )
 }

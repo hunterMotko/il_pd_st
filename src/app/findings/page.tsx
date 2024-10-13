@@ -140,12 +140,40 @@ const data = {
 
 export default async function Findings() {
   return (
-    <div className="grid md:grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-6 p-2 my-2 mx-2">
-      <div className="bg-white border border-black shadow-lg rounded w-full h-full p-2 mx-auto overflow-x-auto" >
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-6 p-2 my-2 mx-2">
+      <div className="md:col-span-2 bg-white border border-black shadow-lg rounded w-full h-full p-2 mx-auto overflow-x-auto" >
         <PosNegBar text={data.countyShortfall.text} data={data.countyShortfall.data} />
+        <p className='p-1'>
+          The graph highlights a significant shortfall in the number of public
+          defense attorneys. While around 1,000 attorneys are currently
+          allocated, the system requires nearly 2,000 to meet the demand,
+          resulting in a shortage of several hundred. This gap indicates that
+          the public defense system is under-resourced, which could negatively
+          impact the quality of legal representation for indigent defendants.
+        </p>
       </div>
-      <div className="bg-white border border-black shadow-lg rounded w-full h-full p-2 mx-auto overflow-x-auto" >
+      <div className="md:col-span-2 bg-white border border-black shadow-lg rounded w-full h-full p-2 mx-auto overflow-x-auto" >
         <MultiBar text={data.restShortfall.text} data={data.restShortfall.data} />
+        <p className='p-1'>
+          There are significant shortages in the public defense system for
+          investigators, mental health professionals, and support staff.
+          Allocated resources are well below the required levels in all
+          categories, with large shortfalls across the board. This highlights
+          the system&#39;s inability to meet staffing needs, affecting the
+          quality of legal representation.
+        </p>
+      </div>
+      <div className="md:col-span-2 bg-white border border-black shadow-lg rounded w-full h-full p-2 mx-auto overflow-x-auto" >
+        <BudgetsBar text={data.budget.text} data={data.budget.data} />
+        <p className='p-1'>
+          There is a significant disparity between prosecution and defense budget
+          allocation statewide. The differential is greater than the difference in
+          prosecution and defense work assignments. Moreover, the budget
+          analysis does not account for the resources provided to prosecution such
+          as police investigations, reports and expert testimony. This imbalance
+          impacts the fairness and effectiveness of legal representation for indigent
+          defendants.
+        </p>
       </div>
       <div className="bg-white border border-black shadow-lg rounded w-full h-full p-2 mx-auto overflow-x-auto" >
         <PosNegBar text={data.maxCounty.text} data={data.maxCounty.data} />
@@ -158,9 +186,6 @@ export default async function Findings() {
       </div>
       <div className="bg-white border border-black shadow-lg rounded w-full h-full p-2 mx-auto overflow-x-auto" >
         <PosNegBar text={data.minJudicial.text} data={data.minJudicial.data} />
-      </div>
-      <div className="bg-white border border-black shadow-lg rounded w-full h-full p-2 mx-auto overflow-x-auto" >
-        <BudgetsBar text={data.budget.text} data={data.budget.data} />
       </div>
       <div className="bg-white border border-black shadow-lg rounded w-full h-full p-2 mx-auto overflow-x-auto" >
         <PercentageBar text={data.highestPercentage.text} data={data.highestPercentage.data} />

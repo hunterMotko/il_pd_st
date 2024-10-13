@@ -22,7 +22,7 @@ const BudgetsBar = ({ text, data }: { text: string, data: ChartItemData[] }) => 
         display: true,
         text: text,
         font: {
-          size: 20
+          size: 24
         }
       },
       legend: {

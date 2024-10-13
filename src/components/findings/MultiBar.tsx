@@ -33,12 +33,20 @@ const MultiBar = ({ text, data }: { text: string, data: MultiData}) => {
     plugins: {
       legend: {
         position: 'bottom' as const,
+        labels: {
+          boxWidth: 50,
+          boxHeight: 20,
+          padding: 15,
+        },
+        font: {
+          size: 16
+        }
       },
       title: {
         display: true,
         text: text,
         font: {
-          size: 20
+          size: 24
         }
       }
     },

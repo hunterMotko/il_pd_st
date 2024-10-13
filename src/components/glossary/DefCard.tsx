@@ -25,7 +25,7 @@ const DefCard = ({ term, definition, i }: DefCardProps) => {
       className="space-y-3 mt-5 overflow-hidden border-b"
       onClick={handleOpenAnswer}
     >
-      <h4 className="cursor-pointer pb-5 flex items-center justify-between text-lg text-gray-700 font-medium">
+      <h4 className="cursor-pointer pb-5 flex items-center justify-between text-2xl text-gray-700 font-medium">
         {term}
         {isAnswerOpen ? (
           <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-gray-500 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">

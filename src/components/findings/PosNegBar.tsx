@@ -28,11 +28,20 @@ const PosNegBar = ({ text, data }: { text: string, data: ChartItemData[] }) => {
         display: true,
         text,
         font: {
-          size: 20
+          size: 24
         }
       },
       legend: {
-        display: daChartCheck
+        position: 'bottom' as const,
+        display: daChartCheck,
+        labels: {
+          boxWidth: 50,
+          boxHeight: 20,
+          padding: 15,
+        },
+        font: {
+          size: 16
+        }
       }
     }
   };

@@ -1,5 +1,5 @@
 const StaffingCalculations = ({ title, list }: Staffing) => (
-  <section className="h-full w-full p-4" >
+  <section className="h-full w-full" >
     <h2 className='text-2xl my-2'>{title}:</h2>
     <ul className="mx-2 my-2 px-2 border rounded border-black">
       {!!list && list.map((s: string[] | string, i: number) => {
