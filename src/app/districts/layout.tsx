@@ -46,7 +46,7 @@ function Layout(props: any) {
   if (data && !!legend) {
     const { subTable, ...rest } = data;
     return (
-      <div className="h-full relative md:h-screen md:flex md:justify-center my-4">
+      <div className="mx-auto h-full relative md:h-screen md:flex md:justify-center my-4">
         {props.children}
         <div className="h-full w-fit flex flex-col justify-center text-neutral">
           <Select data={ids} flag={"Districts"} />

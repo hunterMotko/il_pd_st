@@ -50,7 +50,7 @@ function Layout(props: any) {
     return (
       <div className="h-full relative md:h-screen md:flex md:justify-center my-4">
         {props.children}
-        <div className="h-full w-fit flex flex-col justify-center text-neutral">
+        <div className="mx-auto h-full w-fit flex flex-col justify-center text-neutral">
           <Select data={names} flag={"County"} />
           <MainTable data={rest} />
           <SubTable data={subTable} />
