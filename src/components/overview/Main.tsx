@@ -14,7 +14,7 @@ function Main({ title, description, list, paragraph }: MainSection) {
       <p className='mt-3'>{
         !!description && description.map((item: string | { href: string, text: string }, i: number) => (
           (typeof item === 'string') ? (<span key={i}>{item}</span>) :
-            (<Link key={i} className='text-blue-500 hover:underline' href={item.href}>{item.text}</Link>)
+            (<Link key={i} target='_blank' className='text-blue-500 hover:underline' href={item.href}>{item.text}</Link>)
         ))
       }</p>
       <ul className='list-disc mx-4 my-2 px-4'>

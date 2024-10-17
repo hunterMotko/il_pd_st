@@ -145,7 +145,7 @@ export default async function Findings() {
         <PosNegBar text={data.countyShortfall.text} data={data.countyShortfall.data} />
         <p className='p-1'>
           The graph highlights a significant shortfall in the number of public
-          defense attorneys. While around 1,000 attorneys are currently
+          defense attorneys in Illinois. While around 1,000 attorneys are currently
           allocated, the system requires nearly 2,000 to meet the demand,
           resulting in a shortage of several hundred. This gap indicates that
           the public defense system is under-resourced, which could negatively
