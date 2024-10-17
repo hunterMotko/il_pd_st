@@ -1,11 +1,11 @@
 const StaffingCalculations = ({ title, list }: Staffing) => (
   <section className="h-full w-full" >
     <h2 className='text-2xl my-2'>{title}:</h2>
-    <ul className="mx-2 my-2 px-2 border rounded border-black">
+    <ul className="sm:mx-2 my-2 sm:px-2 border rounded border-black">
       {!!list && list.map((s: string[] | string, i: number) => {
         if (Array.isArray(s)) {
           if (s.length > 5) {
-            const [sum, equals, num, operation, dem, op, last] = s
+            const [sum, equals, num, _, dem, op, last] = s
             return (
               <li key={sum} className="grid grid-cols-12 my-4 p-2">
                 <div className="justify-self-start col-span-4">
@@ -61,7 +61,7 @@ const StaffingCalculations = ({ title, list }: Staffing) => (
           }
         } else {
           return (
-            <li key={i} className=''>
+            <li key={i} className='px-1'>
               <sub>
                 {s}
               </sub>

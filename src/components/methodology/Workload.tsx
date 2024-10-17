@@ -78,26 +78,28 @@ const Workload = ({ title, section }: { title: string, section: any }) => (
           (<Link key={i} className='text-blue-500 hover:underline' href={item.href}>{item.text}</Link>)
       ))}
     </p>
-    <table className="table-auto my-3">
-      <thead>
-        <tr className='border divide-x'>
-          {section.table.headers.map((item: string, i: number) => (
-            <th key={i} className='p-1'>{item}</th>
-          ))}
-        </tr>
-      </thead>
-      <tbody>
-        {section.table.body.map((item: Array<string | number>, i: number) => (
-          <tr key={i} className='p-2 border divide-x'>
-            {item.map((subItem, k) => k === 0 ? (
-              <td key={k} className='p-1'>{subItem}</td>
-            ) : (
-              <td key={k} className='p-1 text-center'>{subItem}</td>
+    <div className="overflow-x-scroll">
+      <table className="table-auto my-3">
+        <thead>
+          <tr className='border divide-x'>
+            {section.table.headers.map((item: string, i: number) => (
+              <th key={i} className='p-1'>{item}</th>
             ))}
           </tr>
-        ))}
-      </tbody>
-    </table>
+        </thead>
+        <tbody>
+          {section.table.body.map((item: Array<string | number>, i: number) => (
+            <tr key={i} className='p-2 border divide-x'>
+              {item.map((subItem, k) => k === 0 ? (
+                <td key={k} className='p-1'>{subItem}</td>
+              ) : (
+                <td key={k} className='p-1 text-center'>{subItem}</td>
+              ))}
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
     <div>
       {section.endParagraph.map((item: string | { href: string, text: string }, i: number) => (
         (typeof item === 'string') ?

@@ -18,18 +18,18 @@ const HamburgerIcon = () => (
   </svg>
 )
 const Header = () => {
-  const [show, setShow] = useState(false)
+  const [showHeader, setShowHeader] = useState<boolean>(false)
   return (
     <>
-      <nav className={`relative z-20 bg-purple-900 w-full shadow-lg md:static md:text-sm md:border-none ${show ? "shadow-lg md:shadow-none" : ""}`}>
+      <nav className={`relative z-20 bg-purple-900 w-full shadow-lg md:static md:text-sm md:border-none ${showHeader ? "shadow-lg md:shadow-none" : ""}`}>
         <div className="items-center ml-auto px-2 max-w-screen-xl mx-auto md:flex md:px-4">
           <div className="flex items-center justify-between py-3 md:py-5 md:block">
             <Link href={'/'} className="text-white text-xl hover:text-blue-600">IL PD Stats</Link>
             <div className="md:hidden">
               <button className="text-white hover:text-blue-600"
-                onClick={() => setShow(!show)}
+                onClick={() => setShowHeader(!showHeader)}
               >
-                {show ? (
+                {showHeader ? (
                   <HamburgerIcon />
                 ) : (
                   <XIcon />
@@ -37,19 +37,23 @@ const Header = () => {
               </button>
             </div>
           </div>
-          <div className={`ml-auto nav-menu pb-2 mt-8 md:block md:pb-0 md:mt-0 ${show ? 'block' : 'hidden'}`}>
+          <div className={`ml-auto nav-menu pb-2 mt-8 md:block md:pb-0 md:mt-0 ${showHeader ? 'block' : 'hidden'}`}>
             <ul className="items-center space-y-6 md:flex md:space-x-3 md:space-y-0">
               {navigation.map((item, i) => (
-                <HeaderItems key={i} item={item} />
+                <HeaderItems 
+                  key={i} 
+                  item={item} 
+                  setShowHeader={setShowHeader}
+                />
               ))}
             </ul>
           </div>
         </div>
       </nav>
-      {show &&
+      {showHeader &&
         <div
           className="z-10 fixed top-0 w-screen h-screen bg-black/20 backdrop-blur-sm md:hidden"
-          onClick={() => setShow(false)}
+          onClick={() => setShowHeader(false)}
         ></div>
       }
     </>

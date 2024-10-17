@@ -9,7 +9,7 @@ type Nav = {
 }
 const Drop = ({ title, sub }: { title: string, sub: Nav[] }) => {
   const [open, setOpen] = useState(false);
-  const drop = useRef<null|HTMLButtonElement>(null);
+  const drop = useRef<null | HTMLButtonElement>(null);
   useEffect(() => {
     if (!open) return;
     function close(e: Event) {
@@ -64,15 +64,18 @@ interface SubItem {
   }[];
   path?: undefined;
 }
-const HeaderItems = ({ item }: { item: SubItem | NavItem }) => (
+const HeaderItems = (
+  { item, setShowHeader }:
+    { item: SubItem | NavItem, setShowHeader: SetState<boolean> }
+) => (
   <li key={item.title} className="relative">
     {item.hasOwnProperty("sub") ? (
       <Drop title={item.title} sub={item.sub as Nav[]} />
     ) : (
       item.path && (
-       <Link href={item.path} className="block text-white hover:text-blue-600">
-         {item.title}
-       </Link>
+        <Link href={item.path} className="block text-white hover:text-blue-600" onClick={() => setShowHeader(false)}>
+          {item.title}
+        </Link>
       )
     )}
   </li >
