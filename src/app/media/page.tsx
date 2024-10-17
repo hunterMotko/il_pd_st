@@ -11,8 +11,8 @@ type ArticleData = {
 
 export default function NewsPage() {
   const d = JSON.parse(JSON.stringify(json))
-  const supporting = "Coverage of Public Defense Systems in Other States."
-  const indigent = "Additional Coverage on Statewide Public Defense Systems"
+  const supporting = "Coverage of Public Defense in Illinois"
+  const indigent = "Coverage of Public Defense Systems in Other States"
 
   return (
     <div className="container mx-auto">
@@ -25,7 +25,7 @@ export default function NewsPage() {
             {supporting}
           </h2>
           {d.supporting.map((item: ArticleData) => <Article key={item.title} {...item} />)}
-          <h2 className="text-xl font-semibold">
+          <h2 className="text-3xl font-bold my-3">
             {indigent}
           </h2>
           {d.indigent.map((item: ArticleData) => <Article key={item.title} {...item} />)}
