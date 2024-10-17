@@ -141,7 +141,7 @@ const data = {
 export default async function Findings() {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-6 p-2 my-2 mx-2">
-      <div className="md:col-span-2 bg-white border border-black shadow-lg rounded w-full h-full p-2 mx-auto overflow-x-auto" >
+      <div className="md:col-span-2 bg-white border border-black shadow-lg rounded w-full h-fit p-2 mx-auto" >
         <PosNegBar text={data.countyShortfall.text} data={data.countyShortfall.data} />
         <p className='p-1'>
           The graph highlights a significant shortfall in the number of public
@@ -152,7 +152,7 @@ export default async function Findings() {
           impact the quality of legal representation for indigent defendants.
         </p>
       </div>
-      <div className="md:col-span-2 bg-white border border-black shadow-lg rounded w-full h-full p-2 mx-auto overflow-x-auto" >
+      <div className="md:col-span-2 bg-white border border-black shadow-lg rounded w-full h-full p-2 mx-auto" >
         <MultiBar text={data.restShortfall.text} data={data.restShortfall.data} />
         <p className='p-1'>
           There are significant shortages in the public defense system for
@@ -163,7 +163,7 @@ export default async function Findings() {
           quality of legal representation.
         </p>
       </div>
-      <div className="md:col-span-2 bg-white border border-black shadow-lg rounded w-full h-full p-2 mx-auto overflow-x-auto" >
+      <div className="md:col-span-2 bg-white border border-black shadow-lg rounded w-full h-full p-2 mx-auto" >
         <BudgetsBar text={data.budget.text} data={data.budget.data} />
         <p className='p-1'>
           There is a significant disparity between prosecution and defense budget
@@ -175,22 +175,22 @@ export default async function Findings() {
           defendants.
         </p>
       </div>
-      <div className="bg-white border border-black shadow-lg rounded w-full h-full p-2 mx-auto overflow-x-auto" >
+      <div className="bg-white border border-black shadow-lg rounded w-full h-full p-2 mx-auto" >
         <PosNegBar text={data.maxCounty.text} data={data.maxCounty.data} />
       </div>
-      <div className="bg-white border border-black shadow-lg rounded w-full h-full p-2 mx-auto overflow-x-auto" >
+      <div className="bg-white border border-black shadow-lg rounded w-full h-full p-2 mx-auto" >
         <PosNegBar text={data.minCounty.text} data={data.minCounty.data} />
       </div>
-      <div className="bg-white border border-black shadow-lg rounded w-full h-full p-2 mx-auto overflow-x-auto" >
+      <div className="bg-white border border-black shadow-lg rounded w-full h-full p-2 mx-auto" >
         <PosNegBar text={data.maxJudicial.text} data={data.maxJudicial.data} />
       </div>
-      <div className="bg-white border border-black shadow-lg rounded w-full h-full p-2 mx-auto overflow-x-auto" >
+      <div className="bg-white border border-black shadow-lg rounded w-full h-full p-2 mx-auto" >
         <PosNegBar text={data.minJudicial.text} data={data.minJudicial.data} />
       </div>
-      <div className="bg-white border border-black shadow-lg rounded w-full h-full p-2 mx-auto overflow-x-auto" >
+      <div className="bg-white border border-black shadow-lg rounded w-full h-full p-2 mx-auto" >
         <PercentageBar text={data.highestPercentage.text} data={data.highestPercentage.data} />
       </div>
-      <div className="bg-white border border-black shadow-lg rounded w-full h-full p-2 mx-auto overflow-x-auto" >
+      <div className="bg-white border border-black shadow-lg rounded w-full h-full p-2 mx-auto" >
         <PercentageBar text={data.lowestPercentage.text} data={data.lowestPercentage.data} />
       </div>
     </div>
