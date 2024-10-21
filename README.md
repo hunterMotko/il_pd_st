@@ -1,36 +1,68 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Illinois Public Defender Stats
 
-## Getting Started
+This repository contains the source code for the full stack development of
+ilpublicdefenderstats.org, a project aimed at providing statistical data
+visualization for Illinois public defenders. The data is categorized by various
+categories, offering a user-friendly platform to analyze and visualize
+statistical data.
 
-First, run the development server:
+## Table of Contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Project Overview
+- Tech Stack
+- Key Features
+- Technical Details
+- About the Data
+- Contributions
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Project Overview
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+The project was commissioned by the Illinois Supreme Court and the
+Administrative Office of Illinois Courts, following an evaluation of Illinois’
+public defense system by the Sixth Amendment Center. The evaluation revealed
+major structural deficiencies within Illinois' public defense system, including
+lack of oversight and independence. This project was motivated by the need to
+provide Illinois public defenders with a user-friendly platform to analyze and
+visualize statistical data.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Tech Stack
 
-## Learn More
+- Frontend: React with TypeScript
+- Server-side rendering and routing: Next.js
+- Database: PostgreSQL
+- Styling: Tailwind CSS
+- CI/CD: GitHub CI/CD
+- Hosting: Digital Ocean
 
-To learn more about Next.js, take a look at the following resources:
+## Key Features
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+One of the key features of this project is the creation of interactive maps for
+data visualization. Users can explore statistical data in a visually appealing
+and intuitive manner. The project also focuses on optimizing web performance
+metrics, such as First Content Paint, Largest Content Paint, Total Blocking
+Time, and layout shift.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Technical Details
 
-## Deploy on Vercel
+The project involved improving database query times and API response times.
+Advanced techniques using PostgreSQL Aggregates, Functions, and Indexes were
+implemented to enhance data retrieval efficiency, resulting in a more
+streamlined and responsive user experience.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## About the Data
+The data presented on this website is the result of a comprehensive research
+conducted by a team from Northwestern University. The team collected and
+analyzed data on resource distribution across all 102 counties in Illinois,
+providing a comprehensive, statewide database on public defense implementation
+in Illinois.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Contributions
+
+The project was a collaborative effort. My personal contribution included
+designing and implementing the frontend components, integrating the backend
+functionality, optimizing performance, and collaborating with the team to
+ensure seamless deployment. I am incredibly proud of this project as it allowed
+me to harness my skills in full stack development, data visualization, and
+performance optimization. The end result was a polished and efficient
+application that met the client's requirements and provided valuable insights
+for Illinois public defenders.
