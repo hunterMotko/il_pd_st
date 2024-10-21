@@ -32,10 +32,10 @@ export default function FairActPage() {
           <h3 className="text-purple-900 text-2xl mb-3">FAIR Act Endorsers</h3>
           <div className="md:flex justify-around">
             <div> 
-              {first.map(item => <div>{item}</div>)}
+              {first.map(item => <div key={item}>{item}</div>)}
             </div>
             <div>
-              {second.map(item => <div>{item}</div>)}
+              {second.map(item => <div key={item}>{item}</div>)}
             </div>
           </div>
         </div>
