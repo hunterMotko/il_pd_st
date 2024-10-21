@@ -2,6 +2,12 @@ import Link from "next/link";
 import endorsers from "@/public/fairact.json"
 
 export default function FairActPage() {
+  let first= [], second = []
+  let mid = endorsers.length/2
+  for (let i = 0; i < endorsers.length; i++) {
+    (i < mid) ? first.push(endorsers[i]) : second.push(endorsers[i])
+  }
+
   return (
     <>
       <div className="grid w-full grid-flow-row gap-x-0 gap-y-1 md:grid-cols-1 md:gap-1 xl:grid-cols-1">
@@ -24,11 +30,14 @@ export default function FairActPage() {
         </div>
         <div className="flex flex-col">
           <h3 className="text-purple-900 text-2xl mb-3">FAIR Act Endorsers</h3>
-          <ul className="grid grid-cols-1 sm:grid-cols-2">
-            {endorsers.map(item => (
-              <li key={item} className="">{item}</li>
-            ))}
-          </ul>
+          <div className="md:flex justify-around">
+            <div> 
+              {first.map(item => <div>{item}</div>)}
+            </div>
+            <div>
+              {second.map(item => <div>{item}</div>)}
+            </div>
+          </div>
         </div>
       </section>
     </>
