@@ -22,6 +22,15 @@ export default function FairActPage() {
         <div>
           <Link
             target="_blank"
+            href="https://drive.google.com/file/d/1lHJj2Ej6ZTatXa3HXQ-X-ctQZ4r5ZXWo/view?usp=sharing"
+            className="text-2xl text-blue-500 hover:text-purple-900 hover:underline"
+          >
+            FAIR Act Fact Sheet
+          </Link>
+        </div>
+        <div>
+          <Link
+            target="_blank"
             href="https://docs.google.com/forms/d/e/1FAIpQLScmUp8MMKcshcN2KAhXqSq9kBHXLShvYIsVsb4vTbNpizhytA/viewform"
             className="text-2xl text-blue-500 hover:text-purple-900 hover:underline"
           >
