@@ -55,7 +55,7 @@ export default function FairActPage() {
               Chicago Sun-Times
               <Link
                 target="_blank"
-                href="https://drive.google.com/file/d/1lHJj2Ej6ZTatXa3HXQ-X-ctQZ4r5ZXWo/view?usp=sharing"
+                href="https://chicago.suntimes.com/editorials/2024/05/21/statewide-public-defense-office-illinois-oversight-cook-county-judges-editorial"
                 className="mx-1 text-blue-500 hover:text-purple-900 hover:underline"
               >
                 Editorial
@@ -65,7 +65,7 @@ export default function FairActPage() {
               Chicago Tribune
               <Link
                 target="_blank"
-                href="https://drive.google.com/file/d/1lHJj2Ej6ZTatXa3HXQ-X-ctQZ4r5ZXWo/view?usp=sharing"
+                href="https://www.chicagotribune.com/2024/05/17/opinion-illinois-needs-statewide-public-defense-system"
                 className="mx-1 text-blue-500 hover:text-purple-900 hover:underline"
               >
                 Op-Ed
@@ -75,7 +75,7 @@ export default function FairActPage() {
               WCIA
               <Link
                 target="_blank"
-                href="https://drive.google.com/file/d/1lHJj2Ej6ZTatXa3HXQ-X-ctQZ4r5ZXWo/view?usp=sharing"
+                href="https://www.youtube.com/watch?v=eziOecXmQDA"
                 className="mx-1 text-blue-500 hover:text-purple-900 hover:underline"
               >
                 TV News Story
