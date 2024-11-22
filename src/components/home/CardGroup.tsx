@@ -4,7 +4,7 @@ import DropCard from '@/components/home/DropCard';
 
 const CardGroup = () => {
   return (
-    <section className="grid md:grid-cols-2 gap-2 sm:gap-5 place-items-center m-1 sm:m-5">
+    <section className="h-2/3 grid md:grid-cols-2 gap-2 sm:gap-5 place-items-center m-1 sm:m-5">
       {navigation.map((info, index) => {
         if (info.hasOwnProperty('sub')) {
           return (
