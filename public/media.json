@@ -1,6 +1,48 @@
 {
   "supporting" : [
     {
+      "title": "Democrats push possible Trump response, other state legislative matters to New Year",
+      "author": "Jermey Gorner",
+      "date": "November 23, 2024",
+      "linkTitle": "Chicago Tribune",
+      "link": "https://www.chicagotribune.com/2024/11/22/illinois-legislature-veto-session"
+    },
+    {
+      "title": "Democrats have Donald Trump’s second term in mind heading into Illinois legislature’s fall session",
+      "author": "Jermey Gorner",
+      "date": "November 11, 2023",
+      "linkTitle": "Chicago Tribune",
+      "link": "https://www.chicagotribune.com/2024/11/11/democrats-have-trumps-second-term-in-mind-heading-into-illinois-legislatures-fall-session"
+    },
+    {
+      "title": "Winnebago County residents share experience on public defense in Illinois",
+      "author": "Anthony Ferretti",
+      "date": "November 7,2024",
+      "linkTitle": "WIFR",
+      "link": "https://www.wifr.com/2024/11/08/winnebago-county-residents-share-experience-public-defense-illinois"
+    },
+    {
+      "title": "Pretrial investigations mount in Champaign as public defender caseloads rise in first year of Pretrial Fairness Act",
+      "author": "Mallory Millier",
+      "date": "October 29, 2024",
+      "linkTitle": "CU-CitizenAccess",
+      "link": "https://cu-citizenaccess.org/2024/10/pretrial-investigations-mount-in-champaign-as-public-defender-caseloads-rise-in-first-year-of-pretrial-fairness-act/#:~:text=In%20Champaign%20County%2C%20the%20new,the%20community%20and%20willful%20flight"
+    },
+    {
+      "title": "Chief judge in St. Clair County says Illinois is safer after a year without cash bail",
+      "author": "Democrats for the Illinois House",
+      "date": "September 29, 2024",
+      "linkTitle": "Democrats for the Illinois House",
+      "link": "https://demsforilhouse.com/2024/09/chief-judge-in-st-clair-county-says-illinois-is-safer-after-a-year-without-cash-bail/#:~:text=Clair%20County%20says%20Illinois%20is%20safer%20after%20a%20year%20without%20cash%20bail,-September%2029%2C%202024&text=In%20the%20year%20since%20Illinois,the%20Metro%20East%20county%20safer"
+    },
+    {
+      "title": "Rockford faith leaders praise Pretrial Fairness Act for reportedly returning $140 million to Illinoisans",
+      "author": "Nathanial Langley",
+      "date": "September 18, 2024",
+      "linkTitle": "WIFR",
+      "link": "https://www.wifr.com/2024/09/19/rockford-faith-leaders-praise-pretrial-fairness-act-reportedly-returning-140-million-illinoisans"
+    },
+    {
       "title": "Bill aimed at assisting public defenders falls short this spring, backers say they’ll try again in fall",
       "author": "Jermey Gorner",
       "date": "June 3, 2024",
@@ -83,29 +125,6 @@
       "date": "April 6, 2024",
       "linkTitle": "Chicago Tribune",
       "link": "https://www.chicagotribune.com/2024/04/06/senate-president-don-harmon-proposes-statewide-office-to-support-public-defender-system"
-    }
-  ],
-  "indigent": [
-    {
-      "title": "Funding Public Defense Furthers Community Safety",
-      "author": "Keisha Hudson and Manohar Raju",
-      "date": "July 22, 2024",
-      "linkTitle": "Newsweek",
-      "link": "https://www.newsweek.com/funding-public-defense-furthers-community-safety-opinion-1927200"
-    },
-    {
-      "title": "The Bronx Defenders Union Announces Unlimited Unfair Labor Practice Strike Beginning Week of July 22, 2024",
-      "author": "UAW",
-      "date": "July 3, 2024",
-      "linkTitle": "UAW",
-      "link": "https://uaw.org/with-an-expired-contract-and-historic-strike-authorization-vote-the-bronx-defenders-union-prepares-for-imminent-strike"
-    },
-    {
-      "title": "Pennsylvania public defense system is unconstitutional, underfunded by at least $100M, new ACLU suit says",
-      "author": "Danielle Ohl",
-      "date": "June 13, 2024",
-      "linkTitle": "Spotlight PA",
-      "link": "https://www.spotlightpa.org/news/2024/06/pennsylvania-public-defense-aclu-lawsuit"
     },
     {
       "title": "Adams County Public Defender No Longer Taking New Cases",
@@ -150,13 +169,6 @@
       "link": "https://www.25newsnow.com/2023/10/17/tazewell-county-shares-effectiveness-safe-t-act-month-out/"
     },
     {
-      "title": "How a New Approach to Public Defense Is Overcoming Mass Incarceration",
-      "author": "Sue Halpern",
-      "linkTitle": "New Yorker",
-      "link": "https://www.newyorker.com/news/daily-comment/how-a-new-approach-to-public-defense-is-overcoming-mass-incarceration",
-      "date": "October 5, 2023"
-    },
-    {
       "title": "Public Defenders Work 3 Times Too Many Cases, Milestone Study And New Data Show",
       "author": "Emily Hamer",
       "date": "September 12, 2023",
@@ -169,6 +181,36 @@
       "date": "September 12, 2023",
       "linkTitle": "Shaw Local",
       "link": "https://www.shawlocal.com/news/2023/09/15/disparately-resourced-public-defenders-prepare-for-the-end-of-cash-bail-in-illinois/"
+    }
+  ],
+  "indigent": [
+    {
+      "title": "Funding Public Defense Furthers Community Safety",
+      "author": "Keisha Hudson and Manohar Raju",
+      "date": "July 22, 2024",
+      "linkTitle": "Newsweek",
+      "link": "https://www.newsweek.com/funding-public-defense-furthers-community-safety-opinion-1927200"
+    },
+    {
+      "title": "The Bronx Defenders Union Announces Unlimited Unfair Labor Practice Strike Beginning Week of July 22, 2024",
+      "author": "UAW",
+      "date": "July 3, 2024",
+      "linkTitle": "UAW",
+      "link": "https://uaw.org/with-an-expired-contract-and-historic-strike-authorization-vote-the-bronx-defenders-union-prepares-for-imminent-strike"
+    },
+    {
+      "title": "Pennsylvania public defense system is unconstitutional, underfunded by at least $100M, new ACLU suit says",
+      "author": "Danielle Ohl",
+      "date": "June 13, 2024",
+      "linkTitle": "Spotlight PA",
+      "link": "https://www.spotlightpa.org/news/2024/06/pennsylvania-public-defense-aclu-lawsuit"
+    },
+    {
+      "title": "How a New Approach to Public Defense Is Overcoming Mass Incarceration",
+      "author": "Sue Halpern",
+      "linkTitle": "New Yorker",
+      "link": "https://www.newyorker.com/news/daily-comment/how-a-new-approach-to-public-defense-is-overcoming-mass-incarceration",
+      "date": "October 5, 2023"
     },
     {
       "title": "Public Defenders Are \"Dangerously\" Overworked, Report Finds",
