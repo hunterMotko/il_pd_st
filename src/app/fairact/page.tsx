@@ -12,7 +12,7 @@ export default function FairActPage() {
       <div className="grid w-full grid-flow-row gap-x-0 gap-y-1 md:grid-cols-1 md:gap-1 xl:grid-cols-1">
         <h2 className="text-3xl font-bold my-1">Funded Advocacy & Independent Representation (FAIR) Act</h2>
         <h3 className="text-2xl my-1">
-          HB 5842 – Rep. Dave Vella, Rep. Justin Slaughter, Rep. Kevin Olickal, Rep. Lilian Jiménez, & Rep. Lindsey LaPointe
+          HB 5842 – Rep. Dave Vella, Rep. Justin Slaughter, Rep. Kevin Olickal, Rep. Lilian Jiménez, Rep. Lindsey LaPointe, Rep. Will Guzzardi, Rep. Eva-Dina Delgado, & Rep. Jennifer Gong-Gershowitz
         </h3>
         <p className="text-lg px-3 mx-3 my-1">
           The <span className="font-bold">FAIR Act</span> will create a constitutional statewide public defense system that will provide oversight, expand resources,
