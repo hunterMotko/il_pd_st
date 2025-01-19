@@ -3,21 +3,21 @@ import useWindowSize from "@/hooks/useWindowSize";
 import { geoMercator, geoPath } from "d3-geo";
 import { useState, useEffect, useMemo } from "react";
 import { useId } from "@/components/common/Provider";
-import { getData } from "@/lib/api";
+// import { getData } from "@/lib/api";
 
-const CountyMap = ({ json }: { json: any }) => {
-  const [data, setData] = useState<LegendData | null>(null)
-  useEffect(() => {
-    (async () => {
-      try {
-        const url = '/api/counties/colors'
-        const data = await getData(url);
-        setData(data);
-      } catch (error) {
-        console.error(error);
-      }
-    })();
-  }, []);
+const CountyMap = ({ data, json }: { data: any, json: any }) => {
+  // const [data, setData] = useState<LegendData | null>(null)
+  // useEffect(() => {
+  //   (async () => {
+  //     try {
+  //       const url = '/api/counties/colors'
+  //       const data = await getData(url);
+  //       setData(data);
+  //     } catch (error) {
+  //       console.error(error);
+  //     }
+  //   })();
+  // }, []);
 
   const { width, height } = useWindowSize();
   const [_, setCur] = useId()
