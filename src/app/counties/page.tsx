@@ -1,11 +1,11 @@
 import CountyMap from "@/components/counties/CountyMap";
 import { feature } from "topojson-client";
 import topo from '../../../public/counties-topo.json';
-import { client } from "@/lib/db";
+import { query } from "@/lib/db";
 
 async function getNow() {
   try {
-    const results = await client('SELECT NOW()')
+    const results = await query('SELECT NOW()')
     const rows = results?.rows
     console.log(rows)
   } catch (error) {
