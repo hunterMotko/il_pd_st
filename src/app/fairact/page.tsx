@@ -12,7 +12,7 @@ export default function FairActPage() {
       <div className="grid w-full grid-flow-row gap-x-0 gap-y-1 md:grid-cols-1 md:gap-1 xl:grid-cols-1">
         <h2 className="text-3xl font-bold my-1">Funded Advocacy & Independent Representation (FAIR) Act</h2>
         <h3 className="text-2xl my-1">
-          HB 5842 – Rep. Dave Vella, Rep. Justin Slaughter, Rep. Kevin Olickal, Rep. Lilian Jiménez, Rep. Lindsey LaPointe, Rep. Will Guzzardi, Rep. Eva-Dina Delgado, & Rep. Jennifer Gong-Gershowitz
+          HB 3363 – Rep. Dave Vella
         </h3>
         <p className="text-lg px-3 mx-3 my-1">
           The <span className="font-bold">FAIR Act</span> will create a constitutional statewide public defense system that will provide oversight, expand resources,
@@ -26,17 +26,17 @@ export default function FairActPage() {
             FAIR Act
             <Link
               target="_blank"
-              href="https://drive.google.com/file/d/1lHJj2Ej6ZTatXa3HXQ-X-ctQZ4r5ZXWo/view?usp=sharing"
+              href="https://drive.google.com/file/d/1AAZv3-kyZefbLX5HuWY_gUZRoWh5T45q/view"
               className="mx-1 text-blue-500 hover:text-purple-900 hover:underline"
             >
               Fact Sheet
             </Link>
           </div>
           <div className="text-xl">
-            HB5842
+            HB3363
             <Link
               target="_blank"
-              href="https://www.ilga.gov/legislation/BillStatus.asp?DocNum=5842&GAID=17&DocTypeID=HB&LegID=154862&SessionID=112&SpecSess=&Session=&GA=103"
+              href="https://www.ilga.gov/legislation/billstatus.asp?DocNum=3363&GAID=18&GA=104&DocTypeID=HB&LegID=161896&SessionID=114"
               className="mx-1 text-blue-500 hover:text-purple-900 hover:underline"
             >
               Status
@@ -44,7 +44,7 @@ export default function FairActPage() {
             and
             <Link
               target="_blank"
-              href="https://ilga.gov/legislation/fulltext.asp?DocName=&SessionId=112&GA=103&DocTypeId=HB&DocNum=5842&GAID=17&LegID=154862&SpecSess=&Session="
+              href="https://www.ilga.gov/legislation/fulltext.asp?DocName=&SessionId=114&GA=104&DocTypeId=HB&DocNum=3363&GAID=18&LegID=161896&SpecSess=&Session="
               className="mx-1 text-blue-500 hover:text-purple-900 hover:underline"
             >
               Text
