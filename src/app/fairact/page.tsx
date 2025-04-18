@@ -1,7 +1,8 @@
 import Link from "next/link";
-import endorsers from "@/public/fairact.json"
+import json from "@/public/fairact.json"
 
 export default function FairActPage() {
+  const { news, endorsers } = json
   let first = [], second = []
   let mid = endorsers.length / 2
   for (let i = 0; i < endorsers.length; i++) {
@@ -50,42 +51,28 @@ export default function FairActPage() {
               Text
             </Link>
           </div>
-          <div className="flex flex-col gap-2 mt-5">
-            <h3 className="text-purple-900 text-2xl font-bold mb-3">Press Coverage</h3>
-            <div className="text-xl">
-              Chicago Sun-Times
-              <Link
-                target="_blank"
-                href="https://chicago.suntimes.com/editorials/2024/05/21/statewide-public-defense-office-illinois-oversight-cook-county-judges-editorial"
-                className="mx-1 text-blue-500 hover:text-purple-900 hover:underline"
-              >
-                Editorial
-              </Link>
-            </div>
-            <div className="text-xl">
-              Chicago Tribune
-              <Link
-                target="_blank"
-                href="https://www.chicagotribune.com/2024/05/17/opinion-illinois-needs-statewide-public-defense-system"
-                className="mx-1 text-blue-500 hover:text-purple-900 hover:underline"
-              >
-                Op-Ed
-              </Link>
-            </div>
-            <div className="text-xl">
-              WCIA
-              <Link
-                target="_blank"
-                href="https://www.youtube.com/watch?v=eziOecXmQDA"
-                className="mx-1 text-blue-500 hover:text-purple-900 hover:underline"
-              >
-                TV News Story
-              </Link>
-            </div>
-          </div>
         </div>
-        <div>
+      </section>
+      <section className="max-w-screen-2xl m-auto w-full px-3 sm:px-8 lg:px-16 pb-5">
+        <h3 className="text-purple-900 text-2xl font-bold mb-3">In The News</h3>
+        <div className="text-xl w-full">
+          {
+            news.map(story => (
+              <div key={story.title} className="grid grid-cols-3 mb-3">
+                <h4 className="text-left">{story.outlet}:</h4>
+                < Link
+                  target="_blank"
+                  href={story.link}
+                  className="col-span-2 mx-1 text-left text-sm text-blue-500 hover:text-purple-900 hover:underline"
+                >
+                  {story.title}
+                </Link>
+              </div>
+            ))
+          }
         </div>
+      </section>
+      <section>
         <div className="col-span-2 flex flex-col">
           <h3 className="text-purple-900 font-bold text-2xl mb-3">
             <Link
@@ -97,15 +84,15 @@ export default function FairActPage() {
             </Link>
           </h3>
           <div className="md:flex justify-around">
-            <div>
+            <div className="text-left">
               {first.map(item => <div key={item}>{item}</div>)}
             </div>
-            <div>
+            <div className="text-left">
               {second.map(item => <div key={item}>{item}</div>)}
             </div>
           </div>
         </div>
-      </section>
+      </section >
     </>
   )
 }
