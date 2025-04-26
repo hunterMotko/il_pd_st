@@ -27,7 +27,7 @@ export default function FairActPage() {
             FAIR Act
             <Link
               target="_blank"
-              href="https://drive.google.com/file/d/1AAZv3-kyZefbLX5HuWY_gUZRoWh5T45q/view"
+              href="https://drive.google.com/file/d/1PliX3PUCyscF2zMF_5_YYJSbfu0xvZfK/view"
               className="mx-1 text-blue-500 hover:text-purple-900 hover:underline"
             >
               Fact Sheet
@@ -53,24 +53,24 @@ export default function FairActPage() {
           </div>
         </div>
       </section>
-      <section className="max-w-screen-2xl m-auto w-full px-3 sm:px-8 lg:px-16 pb-5">
-        <h3 className="text-purple-900 text-2xl font-bold mb-3">In The News</h3>
-        <div className="text-xl w-full">
+      <section className="max-w-screen-2xl m-auto w-full pb-5">
+        <h3 className="text-purple-900 text-2xl font-bold mb-4">In The News</h3>
+        <ul className="text-xl w-full">
           {
             news.map(story => (
-              <div key={story.title} className="grid grid-cols-3 mb-3">
-                <h4 className="text-left">{story.outlet}:</h4>
+              <li key={story.title} className="mb-3 text-balance">
+                {story.outlet}:
                 < Link
                   target="_blank"
                   href={story.link}
-                  className="col-span-2 mx-1 text-left text-sm text-blue-500 hover:text-purple-900 hover:underline"
+                  className="col-span-3 mx-1 text-blue-500 hover:text-purple-900 hover:underline"
                 >
                   {story.title}
                 </Link>
-              </div>
+              </li>
             ))
           }
-        </div>
+        </ul>
       </section>
       <section>
         <div className="col-span-2 flex flex-col">
