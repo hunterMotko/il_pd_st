@@ -1,45 +1,77 @@
 {
   "news": [
     {
+      "outlet": "Chicago Tribune",
+      "title": "Letters: Lawmakers should pass the FAIR Act to ensure all Illinoisans get a fair defense in court",
+      "link": "https://www.chicagotribune.com/2025/05/20/letters-052025-fair-act/",
+      "date": "5/20/2025"
+    },
+    {
       "outlet": "Chicago Sun-Times",
-      "title": "Statewide public defense office would help Illinois counties in need of support",
-      "link": "https://chicago.suntimes.com/editorials/2024/05/21/statewide-public-defense-office-illinois-oversight-cook-county-judges-editorial"
+      "title": "Illinois public defenders, their clients deserve a FAIR shake",
+      "link": "https://chicago.suntimes.com/other-views/2025/05/20/statewide-public-defense-office-county-illinois-judges-christopher-wellborn-bonnie-hoffman",
+      "date": "5/20/2025"
     },
     {
-      "outlet": "Chicago Tribune",
-      "title": "Op-ed: Stephanie Kollmann: Illinois legislators should create a statewide system for public defense",
-      "link": "https://www.chicagotribune.com/2024/05/17/opinion-illinois-needs-statewide-public-defense-system"
+      "outlet": "Illinois State Association of Counties",
+      "title": "Defending Justice: What Public Defense Reform Means for Illinois Counties",
+      "link": "https://www.buzzsprout.com/2277734/episodes/17104663",
+      "date": "5/08/2025"
     },
     {
-      "outlet": "WCIA",
-      "title": "Advocates continue to push for statewide public defender office, despite lack of movement in the Cap",
-      "link": "https://www.youtube.com/watch?v=eziOecXmQDA"
-    },
-    {
-      "outlet": "Chicago Tribune",
-      "title": "Bill Aimed at Bolstering County Public Defender System Moves Forward in Springfield",
-      "link": "https://urldefense.com/v3/__https:/www.chicagotribune.com/2025/03/19/bill-aimed-at-bolstering-county-public-defender-system-moves-forward-in-springfield/__;!!Dq0X2DkFhyF93HkjWTBQKhk!RAHSabRH1lp5DCaabtN5-3M6xaLebf2MogGvt18sxsuLOi0FyyOBg6aDsZqu0oAzMjb1N4tRa7VLLxyog2PGuJEtdrU$"
+      "outlet": "Effingham Daily News",
+      "title": "Keith Grant and Jeff York, Guest Columnists: Illinois was once a leader in public defense. We can be again.",
+      "link": "https://www.effinghamdailynews.com/opinion/columns/keith-grant-and-jeff-york-guest-columnists-illinois-was-once-a-leader-in-public-defense/article_52632529-d803-4a5f-abb9-193af0406c88.html",
+      "date": "5/16/2025"
     },
     {
       "outlet": "Chicago Reader",
       "title": "Illinois's Public Defender Crisis",
-      "link": "https://chicagoreader.com/news/make-it-make-sense/public-defender-sex-offense-housing-calumet-harbor/"
+      "link": "https://chicagoreader.com/news/make-it-make-sense/public-defender-sex-offense-housing-calumet-harbor/",
+      "date": "3/26/2025"
     },
     {
       "outlet": "Bloomberg Law",
       "title": "Citing Burnout, Illinois Attorneys Push Public Defense Reform",
-      "link": "https://urldefense.com/v3/__https:/news.bloomberglaw.com/litigation/citing-burnout-illinois-attorneys-push-public-defense-reform__;!!Dq0X2DkFhyF93HkjWTBQKhk!RAHSabRH1lp5DCaabtN5-3M6xaLebf2MogGvt18sxsuLOi0FyyOBg6aDsZqu0oAzMjb1N4tRa7VLLxyog2PGHiZnBAc$"
+      "link": "https://news.bloomberglaw.com/litigation/citing-burnout-illinois-attorneys-push-public-defense-reform",
+      "date": "3/24/2025"
+    },
+    {
+      "outlet": "Chicago Tribune",
+      "title": "Bill Aimed at Bolstering County Public Defender System Moves Forward in Springfield",
+      "link": "https://www.chicagotribune.com/2025/03/19/bill-aimed-at-bolstering-county-public-defender-system-moves-forward-in-springfield/",
+      "date": "3/19/2025"
     },
     {
       "outlet": "WBBM News Radio",
       "title": "The Future of Public Defense in Illinois",
-      "link": ""
+      "link": "https://www.audacy.com/podcast/at-issue-on-wbbm-newsradio-9f73b/episodes/the-future-of-public-defenders-in-illinois-e5f46",
+      "date": "4/13/2025"
     },
     {
       "outlet": "Capitol News",
       "title": "Lawmakers Moving Forward on Public Defeneder Reform",
-      "link": ""
+      "link": "https://capitolnewsillinois.com/news/lawmakers-moving-forward-on-public-defender-reform/",
+      "date": "4/16/2025"
+    },
+    {
+      "outlet": "Chicago Sun-Times",
+      "title": "Statewide public defense office would help Illinois counties in need of support",
+      "link": "https://chicago.suntimes.com/editorials/2024/05/21/statewide-public-defense-office-illinois-oversight-cook-county-judges-editorial",
+      "date": "5/21/2024"
+    },
+    {
+      "outlet": "Chicago Tribune",
+      "title": "Op-ed: Stephanie Kollmann: Illinois legislators should create a statewide system for public defense",
+      "link": "https://www.chicagotribune.com/2024/05/17/opinion-illinois-needs-statewide-public-defense-system",
+      "date": "3/17/2024"
+    },
+    {
+      "outlet": "WCIA",
+      "title": "Advocates continue to push for statewide public defender office, despite lack of movement in the Cap",
+      "link": "https://www.youtube.com/watch?v=eziOecXmQDA",
+      "date": "3/22/2024"
     }
   ],
-  "endorsers": ["33rd Ward Working Families","A Just Harvest","A Midwest Movement Project","AIDS Foundation Chicago","Access Living","Ascend Justice","Asian Americans Advancing Justice - Chicago","Better Government Association","BlackRoots Alliance","CCBC","Cabrini Green Legal Aid","Cannabis Equity IL Coalition","Champaign County Bailout Coalition","Change Peoria","Chicago Appleseed Center for Fair Courts","Chicago Community Bond Fund","Chicago Council of Lawyers","Chicago United Solidarity Project (CUSP)","Chicago United for Equity","Chicago Urban League","Children’s Best Interest Project","Color of Change","Faith Coalition for the Common Good","Faith In Action","Farmworker and Landscaper Advocacy Project (FLAP)","First Unitarian Church of Chicago","GOT JOBS AMERICA","Greater West Town Community Development Project","Health & Medicine Policy Research Group","Illinois Coalition Against Domestic Violence","Illinois Collaboration on Youth","Illinois Harm Reduction & Recovery Coalition","Illinois National Organization for Women (NOW)","Illinois Network for Pretrial Justice","Illinois Prison Project","Illinois Prisoner Rights Coalition","Illinois Public Defender Association","Illinois Social Justice Alliance","Interfaith Criminal Justice Task Force","Lawndale Christian Legal Center","League of Women Voters of Illinois","Liberation Library","Live Free Illinois","Metro East Organization","NAACP Lake County Branch 3020 B","NAMI Illinois","National Council of Jewish Women (Chicago/North Shore)","National Lawyers Guild - Chicago","Nehemiah Trinity Rising","Nikkei Uprising","Phalanx Family Services","Prison Policy Initiative","Rehumanize Chicago","Restore Justice","Rockford Urban Ministries","She Votes Illinois","Shriver Center on Poverty Law","Smart Decarceration Project,University of Chicago","Southsiders Organized for Unity and Liberation (SOUL)","Speak Out Illinois LLC","TASC (Treatment Alternatives for Safe Communities)","The Center for Empowerment and Justice","The People’s Lobby","The Porchlight Collective SAP","The Resurrection Project","To Defend If Necessary,LLC","Trilogy","Trinity United Church of Christ Chicago","Unitarian Universalist Advocacy Network of Illinois","Unitarian Universalist Prison Ministry of Illinois","WIN Recovery","Westside Justice Center","YWCA Champaign County","YWCA McLean County","Youth Empowerment Performance Project (YEPP)" ]
+  "endorsers": [ "33rd Ward Working Families", "Access Living", "A Just Harvest", "A Midwest Movement Project", "AIDS Foundation Chicago", "Ascend Justice", "Asian Americans Advancing Justice - Chicago", "Better Government Association", "BlackRoots Alliance", "Cabrini Green Legal Aid", "Cannabis Equity IL Coalition", "Champaign County Bailout Coalition", "Change Peoria", "Chicago Appleseed Center for Fair Courts", "Chicago Community Bond Fund", "Chicago Council of Lawyers", "Chicago United for Equity (CUE)", "Chicago Urban League", "Chicago United Solidarity Project (CUSP)", "Children’s Best Interest Project", "Color of Change", "Faith in Action", "Faith Coalition for the Common Good", "Farmworker and Landscaper Advocacy Project (FLAP)", "FirstFollowers", "GOT JOBS AMERICA", "Greater West Town Community Development Project", "Health & Medicine Policy Research Group", "Illinois Coalition Against Domestic Violence", "Illinois Collaboration on Youth", "Illinois Harm Reduction & Recovery Coalition", "Illinois National Organization for Women (NOW)", "Illinois Network for Pretrial Justice", "Illinois Prison Project", "Illinois Prisoner Rights Coalition", "Illinois Public Defender Association (IPDA)", "Illinois Social Justice Alliance", "Interfaith Criminal Justice Task Force Lawndale", "Christian Legal Center", "League of Women Voters of Illinois", "Liberation Library", "Live Free Illinois", "Metro East Organizing Coalition", "NAACP Lake County Branch 3020 B", "National Alliance on Mental Illness (NAMI) - Illinois", "National Council of Jewish Women, Chicago North Shore Section", "National Lawyers Guild - Chicago", "Nehemiah Trinity Rising", "Phalanx Family Services", "Prison Policy Initiative", "Rehumanize Chicago", "Restore Justice", "Rockford Urban Ministries", "The Center for Empowerment and Justice", "The People’s Lobby", "The Porchlight Collective SAP", "The Resurrection Project", "She Votes Illinois", "Shriver Center on Poverty Law", "Smart Decarceration Project, University of Chicago", "Southern Illinois Democratic Socialists of America Southsiders Organized for Unity and Liberation (SOUL)", "Speak Out Illinois LLC", "TASC (Treatment Alternatives for Safe Communities)", "To Defend If Necessary, LLC", "Trilogy", "Trinity United Church of Christ Chicago", "Unitarian Universalist Advocacy Network of Illinois", "Unitarian Universalist Prison Ministry of Illinois", "Westside Justice Center", "WIN Recovery", "Youth Empowerment Performance Project (YEPP)", "YWCA Champaign County", "YWCA McLean County" ]
 }
