@@ -3,6 +3,7 @@ import json from "@/public/fairact.json"
 
 export default function FairActPage() {
   const { news, endorsers } = json
+  let sortedNews = news.sort((a,b) => +new Date(b.date) - +new Date(a.date))
   let first = [], second = []
   let mid = endorsers.length / 2
   for (let i = 0; i < endorsers.length; i++) {
@@ -27,7 +28,7 @@ export default function FairActPage() {
             FAIR Act
             <Link
               target="_blank"
-              href="https://drive.google.com/file/d/1PliX3PUCyscF2zMF_5_YYJSbfu0xvZfK/view"
+              href="https://drive.google.com/file/d/1oIyaCqEfvgIACtJMHGoWNYEAdVrYQv6o/view"
               className="mx-1 text-blue-500 hover:text-purple-900 hover:underline"
             >
               Fact Sheet
@@ -57,7 +58,7 @@ export default function FairActPage() {
         <h3 className="text-purple-900 text-2xl font-bold mb-4">In The News</h3>
         <ul className="text-xl w-full">
           {
-            news.map(story => (
+            sortedNews.map(story => (
               <li key={story.title} className="mb-3 text-balance">
                 {story.outlet}:
                 < Link
