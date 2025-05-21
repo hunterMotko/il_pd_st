@@ -76,8 +76,8 @@ export default function FairActPage() {
           }
         </ul>
       </section>
-      <section>
-        <div className="col-span-2 flex flex-col">
+      <section className="mx-auto">
+        <div className="flex flex-col align-center justify-center">
           <h3 className="text-purple-900 font-bold text-2xl mb-3">
             <Link
               target="_blank"
@@ -87,11 +87,11 @@ export default function FairActPage() {
               FAIR Act Endorsers
             </Link>
           </h3>
-          <div className="md:flex justify-around">
-            <div className="text-center">
+          <div className="md:flex justify-center align-center">
+            <div className="md:w-1/2 text-wrap">
               {first.map(item => <div key={item}>{item}</div>)}
             </div>
-            <div className="text-center">
+            <div className="md:w-1/2 text-wrap">
               {second.map(item => <div key={item}>{item}</div>)}
             </div>
           </div>
