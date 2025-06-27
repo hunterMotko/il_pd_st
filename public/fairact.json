@@ -1,6 +1,24 @@
 {
   "news": [
     {
+      "outlet": "Capitol News Illinois",
+      "title": "Baby food safety, press freedom, public defender measures will head to governor",
+      "link": "https://capitolnewsillinois.com/news/baby-food-safety-press-freedom-public-defender-measures-will-head-to-governor/",
+      "date": "6/4/2025"
+    },
+    {
+      "outlet": "Audacy",
+      "title": "IL lawmakers pass FAIR Act",
+      "link": "https://www.audacy.com/wbbm780/news/local/il-lawmakers-pass-fair-act",
+      "date": "6/2/2025"
+    },
+    {
+      "outlet": "Chicago Tribune",
+      "title": "Lawmakers send flurry of bills to governor’s desk in final days of spring session",
+      "link": "https://www.chicagotribune.com/2025/06/01/illinois-legislation-pritzker/",
+      "date": "6/1/2025"
+    },
+    {
       "outlet": "Chicago Tribune",
       "title": "Letters: Lawmakers should pass the FAIR Act to ensure all Illinoisans get a fair defense in court",
       "link": "https://www.chicagotribune.com/2025/05/20/letters-052025-fair-act/",
